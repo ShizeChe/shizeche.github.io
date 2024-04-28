@@ -15,9 +15,13 @@ I obtained my B.S. in Electrical and Computer Engineering and Minor in Computer 
 I'm broadly interested in quantum computer architecture. My work develops system and architectural support for electron spin qubits hosted in silicon quantum dot devices. My current effort spans device tuning automation, spin control, pulse-level compilation, and device simulation.
 
 ## Publications
-__Fast Virtual Gate Extraction for Silicon Quantum Dot Devices.__<br>
+__Fast Virtual Gate Extraction for Silicon Quantum Dot Devices__<br>
 Shize Che, Seongwoo Oh, Haoyun Qin, Yuhao Liu, Anthony Sigillito, Gushu Li<br>
-Accpeted to Design Automation Conference (DAC) 2024
+Design Automation Conference (DAC) 2024
+
+__Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding__<br>
+Yuhao Liu, Shize Che, Junyu Zhou, Yunong Shi, Gushu Li<br>
+Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
 
 
 __Tartan Artibeus: A Betteryless, Computational Satellite Research Platform__<br>
