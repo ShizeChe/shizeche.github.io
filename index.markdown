@@ -2,33 +2,44 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
+title: Home
 ---
 <img src="/assets/shize.jpg" alt="Alt Text" width="200" height="auto" 
-     style="float: left; margin: 0 20px 20px 0;" />
+     style="float: left; margin: 0 30px 30px 0;" />
 
-I'm a first year Ph.D. student in the Computer and Information Science Department at University of Pennsylvania. I'm advised by [Prof. Gushu Li (Penn Quantum System Lab)](https://sites.google.com/view/gushuli) and [Prof. Anthony Sigillito (Penn Quantum Hardware Lab)](https://www.pennqubit.com).
+I'm a third-year Ph.D. student at the University of Pennsylvania, co-advised by [Prof. Gushu Li (Penn Quantum Systems Lab)](https://sites.google.com/view/gushuli) and [Prof. Anthony Sigillito (Penn Quantum Hardware Lab)](https://www.pennqubit.com). 
 
-I obtained my B.S. in Electrical and Computer Engineering and Minor in Computer Science from Carnegie Mellon University, during which I worked for [The Abstract Research Group](https://abstract.ece.cmu.edu).<br><br><br><br>
+I earned B.S. in Electrical and Computer Engineering and minor in Computer Science from Carnegie Mellon University, during which I focused on digital logic design, computer architecture, and embedded systems.
+<br style="clear: both;" />
 
-# Research
-I'm broadly interested in quantum computer architecture. My work develops system and architectural support for electron spin qubits hosted in silicon quantum dot devices. My current effort spans device tuning automation, spin control, pulse-level compilation, and device simulation.
+## Research
+I design hardware and software for controlling and simulating spin qubits in semiconductor quantum dot devices, with an emphasis on deploying them in experiments.
+
+Currently, I’m building a custom control architecture on RFSoC that is specially optimized for the control requirements of quantum dot spin qubits. Previously, I developed a machine-learning simulation framework that can simulate device tuning from cold start, mirroring real experimental workflows, and an accelerated virtual-gate extraction algorithm that reduces the number of measurement points needed.
+
+I also developed much of our in-house experimental software, including:
+- a high-performance measurement system that decouples all the software-incurred latencies using multi-process parallelism implemented on shared memory
+- a quantum compiler that maps gates to pulses, which has achieved high single-qubit fidelity in experiments (>99.9%).
 
 ## Publications
-__Fast Virtual Gate Extraction for Silicon Quantum Dot Devices__<br>
-Shize Che, Seongwoo Oh, Haoyun Qin, Yuhao Liu, Anthony Sigillito, Gushu Li<br>
-Design Automation Conference (DAC) 2024
+- **NeuroQD: A Learning-Based Simulation Framework for Quantum Dot Devices**  
+  *Shize Che*, Junyu Zhou, Seongwoo Oh, Jonathan Hess, Noah Johnson, Mridul Pushp, Robert Spivey, Anthony Sigillito, Gushu Li.  
+  [Preprint](https://arxiv.org/abs/2509.02872)
 
-__Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding__<br>
-Yuhao Liu, Shize Che, Junyu Zhou, Yunong Shi, Gushu Li<br>
-Architectural Support for Programming Languages and Operating Systems (ASPLOS) 2024
+- **QTurbo: A Robust and Efficient Compiler for Analog Quantum Simulation**  
+  Junyu Zhou, Yuhao Liu, *Shize Che*, Anupam Mitra, Efekan Kökcü, Ermal Rrapaj, Costin Iancu, Gushu Li.  
+  *ASPLOS 2026* (to appear)
 
+- **Fast Virtual Gate Extraction for Silicon Quantum Dot Devices**  
+  *Shize Che*, Seongwoo Oh, Haoyun Qin, Yuhao Liu, Anthony Sigillito, Gushu Li.  
+  *DAC 2024*
 
-__Tartan Artibeus: A Betteryless, Computational Satellite Research Platform__<br>
-Bradley Denby, Emily Ruppel, Vaibhav Singh, Shize Che, Chad Taylor, Fayyaz Zaidi, Swarun Kumar, Zac Manchester, Brandon Lucia<br>
-Small Satellite Conference (SmallSat) 2022
+- **Fermihedral: On the Optimal Compilation for Fermion-to-Qubit Encoding**  
+  Yuhao Liu, *Shize Che*, Junyu Zhou, Yunong Shi, Gushu Li.  
+  *ASPLOS 2024*
 
-<br><br>
-## [Boringg.Arts](https://mailchi.mp/b2313746f31c/signup)
-The project I made for my senior design is reworked and made better by [John Mamish](https://github.com/johnMamish). A small manufacturing run is planned in Summer 2024. Check it out! [(link)](https://mailchi.mp/b2313746f31c/signup)
+- **Tartan Artibeus: A Batteryless, Computational Satellite Research Platform**  
+  Bradley Denby, Emily Ruppel, Vaibhav Singh, *Shize Che*, Chad Taylor, Fayyaz Zaidi, Swarun Kumar, Zac Manchester, Brandon Lucia.  
+  *SmallSat 2022*
 
